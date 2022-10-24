@@ -23,10 +23,10 @@ public class TestCalculator {
     @BeforeClass
     public void setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName", "Pixel_2_API_25");
-        capabilities.setCapability("udid", "emulator-5554");
+        capabilities.setCapability("deviceName", "Redmi Note 9 Pro");
+        capabilities.setCapability("udid", "a467df0");
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("platformVersion", "7.1.1");
+        capabilities.setCapability("platformVersion", "11.0");
         capabilities.setCapability("appPackage", "com.google.android.calculator");
         capabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
 

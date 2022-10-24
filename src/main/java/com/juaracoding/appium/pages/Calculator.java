@@ -40,6 +40,7 @@ public class Calculator {
     @AndroidFindBy(id = "com.google.android.calculator:id/result_final")
     private MobileElement hasil;
 
+
     //Method
     public void calcAdd() {
         btnSatu.click();
